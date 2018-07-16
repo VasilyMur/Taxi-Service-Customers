@@ -1,0 +1,57 @@
+.header {
+    //background: lighten(#26293a, 5);
+    background: #000;
+    .navbar {
+        // display: grid;
+        // grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)) ;
+        // padding: 0 30px;
+        display: flex;
+        justify-content: space-between;
+    .nav-link {
+        text-decoration: none;
+        padding: 2rem;
+        display: block;
+        color: #fff;
+        cursor:pointer;
+        }
+    .nav-link:hover {
+        background: rgba(255,255,255,.06);
+    }
+    .navbar__logo {
+        display: flex;
+        a {
+            color: $red;
+            font-weight: bold;
+            font-size: 2rem;
+            letter-spacing: 0.5px;
+            padding-bottom: 0;
+            padding-top: 1.8rem;
+        }
+    }
+    .navbar__menu {
+        //grid-column-end: -1;
+        display: flex;
+        svg {
+            fill: #fff;
+            border-radius: 50%;
+            padding: 3px;
+        }
+        .callButton {
+            padding: 1.5rem 2rem 0.9rem;
+        }
+        li {
+            list-style: none;
+            a {
+                border-left: 1px solid #fff;
+                }
+            }
+        }
+    }
+}
+header:after {
+    content: '';
+    display: block;
+    background: #fff;
+    height: 5px;
+    width: 100%;
+} 

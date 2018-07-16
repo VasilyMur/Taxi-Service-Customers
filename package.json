@@ -1,0 +1,34 @@
+{
+  "name": "07-2018-nextjs-drnk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next",
+    "build": "next build",
+    "start": "next start -p 8000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@zeit/next-stylus": "^0.1.0",
+    "autoprefixer": "^8.6.4",
+    "firebase": "^5.2.0",
+    "next": "^6.1.1",
+    "nib": "^1.1.2",
+    "postcss-css-variables": "^0.9.0",
+    "prop-types": "^15.6.2",
+    "re-base": "^3.2.3",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-simple-chatbot": "^0.3.1",
+    "rupture": "^0.7.1",
+    "stylus": "^0.54.5"
+  },
+  "devDependencies": {
+    "poststylus": "^1.0.0",
+    "react-svg-loader": "^2.1.0"
+  }
+}
